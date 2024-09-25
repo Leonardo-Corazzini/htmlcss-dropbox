@@ -75,6 +75,7 @@ img{
 .hero{
     background-color: #B4D0E7;
     padding-top: 100px;
+    margin-bottom: 50px;
 }
 .hero-title{
     text-align: center;
@@ -98,6 +99,10 @@ img{
     font-size: 60px;
 }
 /* BUSINESS SECTION STYLE */
+.business-plan-title{
+    font-size: 55px;
+  
+}
 .card{
     border: 1px soldi gray;
 }
