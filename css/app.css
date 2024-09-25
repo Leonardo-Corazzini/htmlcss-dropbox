@@ -7,6 +7,10 @@
 ul,ol{
     list-style:none;
 }
+a{
+    text-decoration: none;
+    color: currentColor;
+}
 /* LAYOUT */
 .container{
     max-width: 1200px;
@@ -27,7 +31,12 @@ ul,ol{
 /* HEADER STYLE */
 .navbar{
     justify-content:space-between ;
+    padding: 10px;
+    align-items: center;
 }
 .cta-menu{
     display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
 }
