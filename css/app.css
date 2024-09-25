@@ -1,0 +1,33 @@
+/* RESET RULES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style:none;
+}
+/* LAYOUT */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-sm{
+    max-width: 1000px;
+    margin:0 auto;
+}
+.container-full{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* HEADER STYLE */
+.navbar{
+    justify-content:space-between ;
+}
+.cta-menu{
+    display: flex;
+}
