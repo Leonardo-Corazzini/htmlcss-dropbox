@@ -11,6 +11,9 @@ a{
     text-decoration: none;
     color: currentColor;
 }
+.img{
+    max-width: 100%;
+}
 /* LAYOUT */
 .container{
     max-width: 1200px;
@@ -48,4 +51,8 @@ a{
     gap: 20px;
     justify-content: space-around;
     align-items: center;
+}
+/* HERO STYLE */
+.hero{
+    background-color: beige;
 }
