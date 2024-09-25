@@ -39,6 +39,9 @@ img{
 .col-100{
     width: 100%;
 }
+.col-25{
+    width:calc(100% / 4);
+}
 .col-33{
     width:calc(100% / 3);
 }
@@ -93,4 +96,12 @@ img{
 }
 .arrow{
     font-size: 60px;
+}
+/* BUSINESS SECTION STYLE */
+.card{
+    border: 1px soldi gray;
+}
+.contract-offers .card{
+    padding: 25px;
+
 }
