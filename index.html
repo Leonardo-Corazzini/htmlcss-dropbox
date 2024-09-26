@@ -55,11 +55,19 @@
         </section>
         <section class="business-plan">
             <div class="container-sm">
-                <div class="row">
+                <div class="plan row">
                     <div class="col-100">
                         <h2 class="business-plan-title">Trova il piano business che fa per te</h2>
-                        <span><input type="radio">Fatturazione mensile</span>
-                        <span><input type="radio">Fatturazione annuale</span>
+                        <div class="toggle-actions">
+                            <span>
+                                <input id="monthly" checked type="radio" name="bill-rate" />
+                                <label for="monthly">Fatturazione mensile</label>
+                            </span>
+                            <span>
+                                <input id="yearly" type="radio" name="bill-rate" />
+                                <label for="yearly">Fatturazione Annuale</label>
+                            </span>
+                        </div>
 
                     </div>
                 </div>
@@ -67,28 +75,31 @@
                     <div class="col-33">
                        <div class="card">
                             <div class="card-header">
-                                <i class="fa-solid fa-user"></i>
+                                <i class="fa-solid fa-user-large"></i>
+                                <h3>Singolo</h3>
                             </div>
                             <div class="card-body">
                                 <div class="card-price">
-                                    <h3>Profesional</h3>
-                                    <p>&euro;12,00</p>
-                                    <p>/mese</p>
+                                    <h3 class="card-price-title">Profesional</h3>
+                                    <p class="price">&euro;12,00</p>
+                                    <p class="cadence">/mese</p>
                                 </div>
                                 <ul class="card-info">
-                                    <li>1 utente</li>
-                                    <li> 5 TB di spazio di archiviazione sicuro</li>
+                                    <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                                    <li>5 TB di spazio di archiviazione sicuro</li>
                                     <li>funzioni di produttività premium e condivisione semplice e sicura</li>
                                 </ul>
                                 <div class="card-cta">
-                                     <div><a class="btn" href="">Prova gratis 30 giorni</a></div>
+                                    <div class="">
+                                        <a class="card-btn btn" href="">Prova gratis 30 giorni</a>
+                                    </div>
                                     <div>oppure <a href="">acquista ora</a></div>
 
                                 </div>
                                 <div>
                                     <h4>Punti salienti del piano</h4>
                                     <ul class="card-info">
-                                        <li></li>
+                                        <li>&check; ciao</li>
                                         <li></li>
                                     </ul>
                                 </div>

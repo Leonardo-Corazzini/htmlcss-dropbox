@@ -102,22 +102,48 @@ img{
     font-size: 60px;
 }
 /* BUSINESS SECTION STYLE */
+.plan{
+    margin-bottom: 50px;
+}
 .business-plan-title{
     font-size: 55px;
+    margin-bottom: 60px;
   
 }
 .card{
-    border: 1px solid rgb(29, 28, 28);
-    min-height: 800px;
-    padding: 40px 30px;
+    border: 2px solid #EDEDEE ;
+    
+    
 }
 main .row > *{
     padding: 0 25px;
+}
+.card-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    padding: 10px 0px
 }
 .card-body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 50px;
+    padding: 40px 30px;
+    border-top: 1px solid  #EDEDEE;
     
+}
+.card-btn{
+    width:100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 32px;
+}
+.card-info > *:not(:last-child),.card-price-title{
+    margin-bottom: 24px;
+}
+.price{
+    margin-bottom: 10px;
 }
