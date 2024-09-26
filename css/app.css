@@ -118,6 +118,9 @@ img{
 main .row > *{
     padding: 0 25px;
 }
+.contract-offers{
+    row-gap: 50px;
+}
 .card-header{
     display: flex;
     flex-wrap: wrap;
@@ -146,4 +149,8 @@ main .row > *{
 }
 .price{
     margin-bottom: 10px;
+}
+.card-body.custom-plan{
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
