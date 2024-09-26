@@ -67,9 +67,12 @@ img{
 }
 .cta-menu{
     display: flex;
-    gap: 20px;
+    
     justify-content: space-around;
     align-items: center;
+}
+.navbar .cta-menu a{
+    padding: 0 16px;
 }
 /* HERO STYLE */
 .hero{
@@ -79,7 +82,7 @@ img{
 }
 .hero-title{
     text-align: center;
-    font-size: 95px;
+    font-size: 70px;
     padding-bottom: 50px;
 
 }
@@ -104,9 +107,17 @@ img{
   
 }
 .card{
-    border: 1px soldi gray;
+    border: 1px solid rgb(29, 28, 28);
+    min-height: 800px;
+    padding: 40px 30px;
 }
-.contract-offers .card{
-    padding: 25px;
-
+main .row > *{
+    padding: 0 25px;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+    
 }
