@@ -218,4 +218,22 @@ main .row > *:not(.no-gutter){
     align-items: baseline;
     padding:110px 0px;
 }
+/* FOOTER STYLE */
+.section-question{
+    margin-bottom: 150px;
+}
+.section-question .col-100 > *{
+    border-bottom: 2px solid #A6A6A6;
+    
+}
+.section-question .big-section-title{
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+    
+}
+.section-question p{
+    padding: 35px 0px;
+    
+
+}
    
