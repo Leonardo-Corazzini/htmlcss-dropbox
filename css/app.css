@@ -105,7 +105,7 @@ img{
 .plan{
     margin-bottom: 50px;
 }
-.business-plan-title{
+.big-section-title{
     font-size: 55px;
     margin-bottom: 60px;
   
@@ -163,6 +163,7 @@ main .row > *:not(.no-gutter){
     flex-direction: row;
     flex-wrap: nowrap;
 }
+/* PARTNER SECTION STYLE */
 .partner-section{
     margin: 150px 0px;
 }
@@ -181,7 +182,7 @@ main .row > *:not(.no-gutter){
     font-weight: bold;
     margin-bottom: 30px;
 }
-.btn-white{
+.btn-partner{
     border-top: 2px solid #E2E2E2;
     border-right:2px solid #A6A6A6;
     border-bottom:2px solid #030303;
@@ -191,3 +192,30 @@ main .row > *:not(.no-gutter){
     padding: 15px;
     font-size: 18px;
 }
+/* FEATURE SECTION STYLE */
+.feature-card{
+    row-gap: 50px;
+}
+/* CLIENTS SECTION TITLE */
+.client-section{
+    margin: 150px 0px;
+}
+.dropbox-clients{
+    max-width: 600px;
+}
+.bg-gray{
+    background-color: #B4D0E7 ;
+
+}
+.bg-gray .big-section-title{
+    color: #61082B
+}
+.btn-white{
+    background-color: white;
+    padding: 10px;
+}
+.footersection-clients{
+    align-items: baseline;
+    padding:110px 0px;
+}
+   
