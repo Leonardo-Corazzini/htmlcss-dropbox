@@ -115,7 +115,7 @@ img{
     
     
 }
-main .row > *{
+main .row > *:not(.no-gutter){
     padding: 0 25px;
 }
 .contract-offers{
@@ -153,4 +153,17 @@ main .row > *{
 .card-body.custom-plan{
     flex-direction: row;
     flex-wrap: nowrap;
+}
+.partner-section{
+    margin: 150px 0px;
+}
+.partner-info{
+    padding: 50px 50px 0px;
+}
+.partner-info > *:not(:first-child){
+    margin-bottom: 24px;
+}
+.partner-title{
+    margin-bottom: 10px;
+    font-size: 25px;
 }
