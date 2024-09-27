@@ -233,7 +233,15 @@ main .row > *:not(.no-gutter){
 }
 .section-question p{
     padding: 35px 0px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #61082B;
     
 
+}
+.question-icon{
+    margin-left: 250px;
+    display: inline-block;
 }
    
